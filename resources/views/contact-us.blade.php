@@ -41,7 +41,6 @@
       </div>    
     </div>
   </div>
-</section>
 @endsection
 @section('container')
 <div class="row">

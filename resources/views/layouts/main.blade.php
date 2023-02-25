@@ -38,7 +38,8 @@ http://www.templatemo.com/tm-463-motor
     <section class="templatemo-top-section">
         @include('layouts.header')
         @yield('header-content')
-
+    </section>
+        @yield('overflow-hidden')
     <!--Main content-->
     <section class="container margin-bottom-50">
         @yield('container')

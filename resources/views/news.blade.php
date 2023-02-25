@@ -25,8 +25,7 @@
   <h2 class="col-lg-12 text-center text-uppercase margin-bottom-30">Donec pede justo fringilla ulputate eget</h2>
   <p class="col-lg-12 text-center margin-bottom-30">Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
   <img src="img/gallery-header.jpg" alt="Image description" class="img-responsive col-lg-12">        
-</div>
-</section>    
+</div>   
 @endsection
 @section('container')
 <div class="row">

@@ -18,32 +18,33 @@
         </div>
       </div>    
     </div>
-  </div>
-</section>
+  </div>  
+@endsection
+@section('overflow-hidden')
 <section class="container margin-bottom-50">
- <div class="row">
-  <h2 class="col-lg-12 text-center text-uppercase margin-bottom-30">Donec pede justo fringilla ulputate eget</h2>
-  <p class="col-lg-12 text-center margin-bottom-30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
-  <div class="col-lg-12 tm-overflow-hidden">
-    <div class="tm-img-1-container">
-      <img src="img/0.jpg" alt="Image description">
-      <p class="tm-img-1-description">Porsche</p>
-    </div>
-    <div class="tm-img-1-container">
-      <img src="img/1.jpg" alt="Image description">
-      <p class="tm-img-1-description">Mercedes</p>
-    </div>
-    <div class="tm-img-1-container">
-      <img src="img/0.jpg" alt="Image description">
-      <p class="tm-img-1-description">BMW</p>
-    </div>
-    <div class="tm-img-1-container">
-      <img src="img/1.jpg" alt="Image description">
-      <p class="tm-img-1-description">Lexus</p>
-    </div>         
-  </div>
-</div>
-</section>    
+  <div class="row">
+   <h2 class="col-lg-12 text-center text-uppercase margin-bottom-30">Donec pede justo fringilla ulputate eget</h2>
+   <p class="col-lg-12 text-center margin-bottom-30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+   <div class="col-lg-12 tm-overflow-hidden">
+     <div class="tm-img-1-container">
+       <img src="img/0.jpg" alt="Image description">
+       <p class="tm-img-1-description">Porsche</p>
+     </div>
+     <div class="tm-img-1-container">
+       <img src="img/1.jpg" alt="Image description">
+       <p class="tm-img-1-description">Mercedes</p>
+     </div>
+     <div class="tm-img-1-container">
+       <img src="img/0.jpg" alt="Image description">
+       <p class="tm-img-1-description">BMW</p>
+     </div>
+     <div class="tm-img-1-container">
+       <img src="img/1.jpg" alt="Image description">
+       <p class="tm-img-1-description">Lexus</p>
+     </div>         
+   </div>
+ </div>
+ </section>  
 @endsection
 @section('container')
 <div class="tm-overflow-hidden row">
