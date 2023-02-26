@@ -7,7 +7,7 @@
     <div class="templatemo-nav-container">
         <nav class="templatemo-nav">
             <ul>
-                <li><a href="{{ route('home') }}" class="{{(Route::currentRouteName() == 'home')?'active':''}}">Home</a></li>
+                <li><a href="{{ route('home') }}" class="{{(Route::currentRouteName() == 'home' || Route::currentRouteName() == '')?'active':''}}">Home</a></li>
                 <li><a href="{{ route('product') }}" class="{{(Route::currentRouteName() == 'product')?'active':''}}">Products</a></li>
                 <li><a href="{{ route('program') }}" class="{{(Route::currentRouteName() == 'program')?'active':''}}">Services</a></li>
                 <li><a href="{{ route('news') }}" class="{{(Route::currentRouteName() == 'news')?'active':''}}">Galery</a></li>
